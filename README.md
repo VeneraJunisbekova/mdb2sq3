@@ -13,14 +13,14 @@ You will need the SQLite ADO.NET library in order to compile and use this projec
 This is a console application, just type:
 `msql2db3 -?`
 to display the help
-
+```
 mdb2sq3 -s:sourcefile [-t:targetfile] [options]
 -s:sourcefile   Sets the source MSAccess database
 -t:targetfile   Sets the target SQLite database
 -e              Forces deletion of target file if it exists
 -v              Verbose mode.
 -?              Prints this help and exits the program.
-
+```
 ####Examples
 `mdb2sq3 -s:"c:\db\accessdb.mdb"`
 converts the database into sqlite and saves it on the file accessdb.db.
